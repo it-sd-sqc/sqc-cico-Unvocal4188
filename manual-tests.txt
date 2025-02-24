@@ -61,4 +61,11 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Should display "Developer" for the user name.
 
+# Module 4: Limit amount of numbers entered in
 
+## Test Steps
+1. Build and run CiCo.
+2. Enter 6 digits into the field and click Update.
+
+## Expected results
+* Should not accept card number
