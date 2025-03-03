@@ -69,3 +69,12 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 ## Expected results
 * Should not accept card number
+
+# Module 5: Use an acknowledge button along with a timeout
+
+## Test Steps
+1. Build and run CiCo.
+2. Enter 00000000 into the field and click Update.
+
+## Expected results
+* Display a button to acknowledge and return to main screen
