@@ -78,3 +78,19 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 ## Expected results
 * Display a button to acknowledge and return to main screen
+
+# Module 6: Color Scheme Update Test  
+
+## Test steps  
+1. Build and run CiCo.  
+2. Observe the background and text colors of all panels (Main, Status, and Error).  
+3. Enter 00000000 into the field and click Update.  
+4. Observe the Status panel’s color scheme.  
+5. Trigger an error by entering 99999999 and clicking Update.  
+6. Observe the Error panel’s color scheme.  
+
+## Expected results:  
+* The Main panel should have a professional monochromatic color scheme.  
+* The Status panel should use subdued colors while maintaining text readability.  
+* The Error panel should use a neutral but noticeable color without being overly bright.  
+* All text remains visible and easy to read against the background.  
